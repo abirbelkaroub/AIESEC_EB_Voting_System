@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    outline: none;
+    /* border: none; */
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+:root {
+    --color1: #072227;
+    --color2: #35858b;
+    --color3: #4fbdba;
+    --color4: #aefeff;
+    --black: #000;
+    --white: #fff;
+    --lightgray: #d3d3d3;
+    --red: rgb(238, 62, 62);
+}
+
+html {
+    font-size: 70%;
+    /* overflow-x: hidden; */
+}
+
+
+/* header styles */
+.header {
+    background-color: var(--color1);
+    /* position: sticky; */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header .header_body {
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 2rem;
+}
+
+.header .header_body .logo {
+    margin-right: auto;
+    font-size: 2.5rem;
+    color: var(--color4);
+}
+
+.header .header_body .navbar a {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.header .header_body .cart {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.header .header_body .navbar a:hover,
+.header .header_body .cart:hover {
+    color: var(--color4);
+}
+
+.header .header_body .cart span {
+    padding: 0 0.5rem;
+}
+.vertical-space {
+    margin-bottom: 20px; 
+}
+.vertical-double-space {
+    margin-bottom: 80px; 
+}
+.vertical-space-up{
+    margin-top: 20px; 
+}
